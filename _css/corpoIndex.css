@@ -1,0 +1,64 @@
+		body{
+			height: 400px;
+			background-color: #eee;
+		}
+		#banner{
+			width: 100%;
+			border: none;
+			height: 150px;
+		}
+		#contato{
+			border-style: solid;
+			border-width: 1px 1px 1px 1px;
+			width: 480px;
+			height: 250px;
+			position: relative;
+			left: 80px;
+			top: 40px;
+			padding-left: 15px;
+		}
+		#noticia{
+			border-style: solid;
+			border-width: 1px 1px 1px 1px;
+			width: 300px;
+			height: 250px;
+			position: relative;
+			left: 600px;
+			top: -212px;	
+		}
+		#sobre{
+			border-style: solid;
+			border-width: 1px 1px 1px 1px;
+			width: 300px;
+			height: 250px;
+			position: relative;
+			left: 930px;
+			top: -464px;
+		}
+		button{
+			position: relative;
+			left: 40%;	
+			background-color: #555555;
+			color: white;
+			padding: 3px;
+			font-size: 16px;
+			border: none;
+			cursor: pointer;			
+		}
+		#destaque{
+			font-weight: bold;
+			font-size: 150%;
+			margin: 15px;
+		}
+		#texto{
+			margin: 15px;					
+		}
+		#txtnoticia{
+			margin: 15px;			
+			color: black;			
+			text-decoration: none;
+			font-weight: bold;
+		}		
+		a:link, a:visited{
+			color: black;			
+		}

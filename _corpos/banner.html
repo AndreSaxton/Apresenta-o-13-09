@@ -1,0 +1,36 @@
+<html>
+	<head>
+      <title>change picture</title>
+	  <style>
+		img{
+		width: 800px;
+			height: 150px;
+		}
+	</style>
+      <script type = "text/javascript">
+          function displayNextImage() {
+              x = (x === images.length - 1) ? 0 : x + 1;
+              document.getElementById("img").src = images[x];
+          }
+
+          function displayPreviousImage() {
+              x = (x <= 0) ? images.length - 1 : x - 1;
+              document.getElementById("img").src = images[x];
+          }
+
+          function startTimer() {		  
+              setInterval(displayNextImage, 7000);
+			  displayPreviousImage();
+          }
+
+          var images = [], x = -1;
+          images[0] = "../_imagens/banner1.jpg";
+          images[1] = "../_imagens/banner2.jpg";
+          images[2] = "../_imagens/banner3.jpg";
+      </script>
+   </head>
+
+   <body onload = "startTimer()">
+       <center><img id="img" width="100%"/></center>
+   </body>
+</html>
